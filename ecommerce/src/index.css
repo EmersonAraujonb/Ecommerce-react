@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero, .cards{
+    margin-top: 150px;
+  }
+}
+@media (max-width: 556px) {
+  .shopping{
+    display: grid;
+    margin-top: 140px;
+  }
+  .shopping h1{
+    font-size: medium;
+  }
+  .shopping h2{
+    font-size: medium;
+  }
+  .shopping h3{
+    font-size: xx-small;
+  }
+
+  .shopping-first{
+    width: 100vw;
+  }
+  #summary{
+    display: grid;
+    width: 100vw;
+  }
+  #summary h1{
+    text-align: center;
+  }
+  .value{
+    font-size: medium;
+  }
+  
+}
