@@ -7,7 +7,7 @@ import Product from './modules/Product'
 import Products from './modules/Products'
 import CategoryProducts from './modules/CategoryProducts'
 import Cart from './modules/Cart'
-import About from './components/About'
+import About from './components/About/index.jsx'
 import Contact from './components/Contact'
 
 function App() {
