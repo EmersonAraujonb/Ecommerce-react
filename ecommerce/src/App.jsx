@@ -1,14 +1,14 @@
 import './App.css'
-import Footer from './components/Footer/index'
-import Header from './components/Header/index'
-import Home from './modules/Home/index'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Home from './modules/Home'
 import { Routes, Route } from 'react-router-dom'
-import Product from './modules/Product/index'
-import Products from './modules/Products/index'
-import CategoryProducts from './modules/CategoryProducts/index'
-import Cart from './modules/Cart/index'
-import About from './components/About/index'
-import Contact from './components/Contact/index'
+import Product from './modules/Product'
+import Products from './modules/Products'
+import CategoryProducts from './modules/CategoryProducts'
+import Cart from './modules/Cart'
+import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
 
