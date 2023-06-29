@@ -1,11 +1,11 @@
 import './App.css'
 import Footer from './components/Footer'
-import Header from './components/Header'
+// import Header from './components/Header'
 import Home from './modules/Home'
 import { Routes, Route } from 'react-router-dom'
 import Product from './modules/Product'
 import Products from './modules/Products'
-import CategoryProducts from './modules/CategoryProducts/index,'
+import CategoryProducts from './modules/CategoryProducts'
 import Cart from './modules/Cart'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -15,7 +15,7 @@ function App() {
   return (
 
     <div>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/products/:id' element={<Product/>} />
