@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../src/assets/bg.jpg'
+import Image from '../../assets/bg.jpg'
 
 const Hero = () => {
     return (
@@ -12,7 +12,7 @@ const Hero = () => {
                     <p className="mb-8 leading-relaxed">Buy clothes for all occasions and rock wherever you go. Buying an outfit may seem simple, and here you will prove that it is!</p>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-cover object-center rounded" alt="bg" src={img}/>
+                    <img className="object-cover object-center rounded" alt="bg" src={Image}/>
                 </div>
             </div>
         </section>
